@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Remote User</title>
+    <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(to bottom, #2c3e50, #3498db);
+            font-family: 'Russo One', sans-serif;
+            background-color: #000000;
+            margin: 0;
+            color: white;
+        }
+
+        h1 {
+            color: #8e4fd1;
+            margin-top: 50px;
+            font-size: 28px;
+        }
+
+        .topnav {
+            overflow: hidden;
+            background-color: rgba(0, 0, 0, 0.5);
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+
+        .topnav a {
+            margin: 0 20px;
+            text-decoration: none;
+            font-size: 17px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .topnav a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+            color: #8e4fd1;
+        }
+
+        .topnav a.active {
+            color: #8e4fd1;
+            font-weight: bold;
+        }
+
+        .mainholder {
+            padding: 20px;
+        }
+
+        .btn {
+            background-color: #8e4fd1;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .btn:hover {
+            background-color: #663399;
+        }
+
+        .content-block {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            margin-top: 20px;
+        }
+    </style>
+    <script>
+        // JavaScript for interactive navigation
+        function setActiveNav(event) {
+            var navLinks = document.querySelectorAll('.topnav a');
+            for (var i = 0; i < navLinks.length; i++) {
+                navLinks[i].classList.remove('active');
+            }
+            event.target.classList.add('active');
+        }
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+
+<h1 align="center">Drug Recommendation System</h1>
+
+<div class="topnav">
+    <a href="{% url 'Predict_Drug_Recommendation_Type' %}" onclick="setActiveNav(event)">Predict Recommendation Type</a>
+    <a href="{% url 'ViewYourProfile' %}" onclick="setActiveNav(event)">View Your Profile</a>
+    <a href="{% url 'login' %}" onclick="setActiveNav(event)">Logout</a>
+</div>
+
+<div class="mainholder">
+    <div class="content-block">
+        {% block userblock %}
+        {% endblock %}
+    </div>
+</div>
+</body>
+</html>

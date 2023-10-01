@@ -1,0 +1,111 @@
+{% extends 'SProvider/design1.html' %}
+{% block researchblock %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Remote Users</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="icon" href="images/icon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #000000;
+            font-family: 'Righteous', cursive;
+            margin: 0;
+            padding: 0;
+            color: white;
+        }
+
+        .container-fluid {
+            padding: 50px;
+        }
+
+        .container {
+            background-color: white;
+            padding: 50px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .title {
+            font-family: 'Fredoka One', cursive;
+            font-size: 24px;
+            color: #FF0000;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+            border-bottom: 1px solid #FF0000;
+        }
+
+        th {
+            background-color: #FF0000;
+            color: yellow;
+        }
+
+        tr:nth-child(even) {
+            background-color: white;
+        }
+        
+        .ne
+        {
+            color:aqua;
+        }
+        .style1 {
+            color: #FF0000;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="container">
+            <h2 class="title">VIEW ALL REMOTE USERS</h2>
+            <div class="viewclients">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>USER NAME</th>
+                            <th>EMAIL</th>
+                            <th>Mob No</th>
+                            <th>Country</th>
+                            <th>State</th>
+                            <th>City</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for o in objects %}
+                        <tr class="ne">
+                            <td>{{ o.username }}</td>
+                            <td>{{ o.email }}</td>
+                            <td>{{ o.phoneno }}</td>
+                            <td>{{ o.country }}</td>
+                            <td>{{ o.state }}</td>
+                            <td>{{ o.city }}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+{% endblock %}

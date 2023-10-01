@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Service Provider</title>
+    <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+    <style>
+        body {
+            background: url("{% static 'bg.jpg' %}");
+            background-size: cover;
+            font-family: 'Russo One', sans-serif;
+            background-color: #000000;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .topnav {
+            overflow: hidden;
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        .topnav a {
+            float: left;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 14px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .topnav a:hover {
+            background-color: #8e4fd1;
+            color: white;
+        }
+
+        .topnav a.active {
+            background-color: #8e4fd1;
+            color: white;
+        }
+
+        .style1 {
+            color: #FF0000;
+        }
+    </style>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+
+<h1 class="style1">Drug Recommendation System based on Sentiment Analysis of Drug Reviews using Machine Learning</h1>
+
+<div class="topnav">
+    <a href="{% url 'train_model' %}">Browse and Train & Test Data Sets</a>
+    <a href="{% url 'likeschart' 'bar' %}">View Trained and Tested Accuracy in Bar Chart</a>
+    <a href="{% url 'charts1' 'line' %}">View Trained and Tested Accuracy Results</a>
+    <a href="{% url 'View_Prediction_Of_Drug_RecommendationType' %}">View Prediction Of Drug Recommendation Type</a>
+    <a href="{% url 'View_Drug_Recommendation_Type_Ratio' %}">View Drug Recommendation Type Ratio</a>
+    <a href="{% url 'Download_Trained_DataSets' %}">Download Trained Data Sets</a>
+    <a href="{% url 'charts' 'line' %}">View Drug Recommendation Type Ratio Results</a>
+    <a href="{% url 'View_Remote_Users' %}">View All Remote Users</a>
+    <a href="{% url 'login'  %}">Logout</a>
+</div>
+
+<div class="mainholder">
+    {% block researchblock %}
+    {% endblock %}
+</div>
+</body>
+</html>

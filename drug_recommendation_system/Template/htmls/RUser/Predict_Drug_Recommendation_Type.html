@@ -1,0 +1,124 @@
+{% extends 'RUser/design.html' %}
+
+{% block userblock %}
+<link rel="icon" href="images/icon.png" type="image/x-icon" />
+
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+
+<style>
+    /* Import styles from the parent design.html file */
+    {% block page_styles %}
+        {{ block.super }}
+    {% endblock %}
+
+    /* Add or override additional styles for this specific page */
+    body {
+        background-color: transparent;
+        color: #fff;
+        font-family: Arial, sans-serif;
+        margin: 0;
+    }
+
+    .container {
+        background-color: rgba(0, 0, 0, 0.6);
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    }
+
+    #title {
+        font-family: 'Fredoka One', cursive;
+        color: #FF00FF;
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .style1 {
+        color: #FF0000;
+        font-weight: bold;
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .input-group {
+        margin-bottom: 15px;
+    }
+
+    .input-group-addon {
+        background-color: #FF00FF;
+        border-color: #FF00FF;
+        color: #fff;
+    }
+
+    .form-control {
+        background-color: rgba(255, 255, 255, 0.2);
+        border-color: #FF00FF;
+        color: #fff;
+        transition: background-color 0.3s ease;
+        font-size: 16px;
+    }
+
+    .form-control::placeholder {
+        color: #ccc;
+    }
+
+    .form-control:focus {
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+
+    .btn-primary {
+        background-color: #FF00FF;
+        border-color: #FF00FF;
+        color: #fff;
+        padding: 12px 24px;
+        font-size: 18px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-primary:hover {
+        background-color: #FF0099;
+    }
+
+    .result-box {
+        background-color: rgba(0, 0, 0, 0.8);
+        padding: 15px;
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    .result-text {
+        color: #FF0000;
+        font-size: 22px;
+        font-weight: bold;
+    }
+</style>
+
+<div class="container">
+    <form role="form" method="POST">
+        {% csrf_token %}
+        <h3 class="text-center" id="title">Prediction of Drug Recommendation Type</h3>
+        <hr>
+
+        <div class="input-group">
+            <span class="input-group-addon">Enter Drug Name</span>
+            <input type="text" name="dname" class="form-control" placeholder="Drug name">
+        </div>
+
+        <div class="input-group">
+            <span class="input-group-addon">Enter Drug Review Here</span>
+            <textarea name="keyword" class="form-control" placeholder="Drug review" cols="40" rows="5"></textarea>
+        </div>
+
+        <div class="text-center">
+            <button type="submit" name="submit" class="btn btn-primary">Predict</button>
+        </div>
+    </form>
+
+    <div class="result-box">
+        <p class="result-text">Drug Recommendation Type: {{objs}}</p>
+    </div>
+</div>
+{% endblock %}

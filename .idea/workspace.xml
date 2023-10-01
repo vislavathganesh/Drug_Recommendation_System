@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="578a3fb8-a966-4dae-914c-b0058fdb38b4" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/drug_recommendation_system/Remote_User/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="38" column="45" lean-forward="false" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Drugs_Recommendataion.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/drug_recommendation_system/Drugs_Recommendataion.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1224">
+              <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Predict_Drug_Recommendation_Type.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/drug_recommendation_system/Template/htmls/RUser/Predict_Drug_Recommendation_Type.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="799">
+              <caret line="47" column="38" lean-forward="false" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/drug_recommendation_system/Remote_User/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="24" column="44" lean-forward="false" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="train_model.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/drug_recommendation_system/Template/htmls/SProvider/train_model.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="663">
+              <caret line="39" column="31" lean-forward="false" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="View_Drug_Recommendation_Type_Ratio.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/drug_recommendation_system/Template/htmls/SProvider/View_Drug_Recommendation_Type_Ratio.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="663">
+              <caret line="39" column="31" lean-forward="false" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="View_Prediction_Of_Drug_RecommendationType.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/drug_recommendation_system/Template/htmls/SProvider/View_Prediction_Of_Drug_RecommendationType.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1003">
+              <caret line="59" column="129" lean-forward="false" selection-start-line="59" selection-start-column="129" selection-end-line="59" selection-end-column="129" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="View_Remote_Users.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/drug_recommendation_system/Template/htmls/SProvider/View_Remote_Users.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Add_DataSet_Details.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/drug_recommendation_system/Template/htmls/RUser/Add_DataSet_Details.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="901">
+              <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/drug_recommendation_system/Service_Provider/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="262">
+              <caret line="234" column="17" lean-forward="false" selection-start-line="234" selection-start-column="17" selection-end-line="234" selection-end-column="17" />
+              <folding>
+                <element signature="e#1#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/drug_recommendation_system/drug_recommendation_system/settings.py" />
+        <option value="$PROJECT_DIR$/drug_recommendation_system/drug_recommendation_system/wsgi.py" />
+        <option value="$PROJECT_DIR$/drug_recommendation_system/Template/htmls/SProvider/Train_View_SMS_DataSets_Details.html" />
+        <option value="$PROJECT_DIR$/drug_recommendation_system/Template/htmls/SProvider/View_Spam_traceability_Details.html" />
+        <option value="$PROJECT_DIR$/drug_recommendation_system/Template/htmls/RUser/Predict_SpamType_DataSets.html" />
+        <option value="$PROJECT_DIR$/drug_recommendation_system/Template/htmls/SProvider/Train_View_Drugs_DataSets_Details.html" />
+        <option value="$PROJECT_DIR$/drug_recommendation_system/Template/htmls/SProvider/View_Drugs_Recommended_Details.html" />
+        <option value="$PROJECT_DIR$/drug_recommendation_system/Template/htmls/SProvider/Test_Recommended_Ratio.html" />
+        <option value="$PROJECT_DIR$/drug_recommendation_system/drug_recommendation_system/asgi.py" />
+        <option value="$PROJECT_DIR$/drug_recommendation_system/Drugs_Recommendataion.py" />
+        <option value="$PROJECT_DIR$/drug_recommendation_system/Template/htmls/SProvider/View_Prediction_Of_Tweet_Message_Type.html" />
+        <option value="$PROJECT_DIR$/drug_recommendation_system/Template/htmls/SProvider/serviceproviderlogin.html" />
+        <option value="$PROJECT_DIR$/drug_recommendation_system/Template/htmls/RUser/Register1.html" />
+        <option value="$PROJECT_DIR$/drug_recommendation_system/Template/htmls/RUser/login.html" />
+        <option value="$PROJECT_DIR$/drug_recommendation_system/Template/htmls/RUser/Add_DataSet_Details.html" />
+        <option value="$PROJECT_DIR$/drug_recommendation_system/Template/htmls/RUser/design.html" />
+        <option value="$PROJECT_DIR$/drug_recommendation_system/Template/htmls/SProvider/design1.html" />
+        <option value="$PROJECT_DIR$/drug_recommendation_system/drug_recommendation_system/urls.py" />
+        <option value="$PROJECT_DIR$/drug_recommendation_system/Template/htmls/RUser/Predict_Drug_Recommendation_Type.html" />
+        <option value="$PROJECT_DIR$/drug_recommendation_system/Template/htmls/SProvider/View_Drug_Recommendation_Type_Ratio.html" />
+        <option value="$PROJECT_DIR$/drug_recommendation_system/Template/htmls/SProvider/train_model.html" />
+        <option value="$PROJECT_DIR$/drug_recommendation_system/Remote_User/models.py" />
+        <option value="$PROJECT_DIR$/drug_recommendation_system/Template/htmls/SProvider/View_Prediction_Of_Drug_RecommendationType.html" />
+        <option value="$PROJECT_DIR$/drug_recommendation_system/Remote_User/views.py" />
+        <option value="$PROJECT_DIR$/drug_recommendation_system/Service_Provider/views.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1004" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Drug_Recommendation_System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Drug_Recommendation_System" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Drug_Recommendation_System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Drug_Recommendation_System" type="462c0819:PsiDirectoryNode" />
+              <item name="drug_recommendation_system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Drug_Recommendation_System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Drug_Recommendation_System" type="462c0819:PsiDirectoryNode" />
+              <item name="drug_recommendation_system" type="462c0819:PsiDirectoryNode" />
+              <item name="drug_recommendation_system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Drug_Recommendation_System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Drug_Recommendation_System" type="462c0819:PsiDirectoryNode" />
+              <item name="drug_recommendation_system" type="462c0819:PsiDirectoryNode" />
+              <item name="Remote_User" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Drug_Recommendation_System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Drug_Recommendation_System" type="462c0819:PsiDirectoryNode" />
+              <item name="drug_recommendation_system" type="462c0819:PsiDirectoryNode" />
+              <item name="Service_Provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Drug_Recommendation_System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Drug_Recommendation_System" type="462c0819:PsiDirectoryNode" />
+              <item name="drug_recommendation_system" type="462c0819:PsiDirectoryNode" />
+              <item name="Template" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Drug_Recommendation_System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Drug_Recommendation_System" type="462c0819:PsiDirectoryNode" />
+              <item name="drug_recommendation_system" type="462c0819:PsiDirectoryNode" />
+              <item name="Template" type="462c0819:PsiDirectoryNode" />
+              <item name="htmls" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Drug_Recommendation_System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Drug_Recommendation_System" type="462c0819:PsiDirectoryNode" />
+              <item name="drug_recommendation_system" type="462c0819:PsiDirectoryNode" />
+              <item name="Template" type="462c0819:PsiDirectoryNode" />
+              <item name="htmls" type="462c0819:PsiDirectoryNode" />
+              <item name="RUser" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Drug_Recommendation_System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Drug_Recommendation_System" type="462c0819:PsiDirectoryNode" />
+              <item name="drug_recommendation_system" type="462c0819:PsiDirectoryNode" />
+              <item name="Template" type="462c0819:PsiDirectoryNode" />
+              <item name="htmls" type="462c0819:PsiDirectoryNode" />
+              <item name="SProvider" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="578a3fb8-a966-4dae-914c-b0058fdb38b4" name="Default" comment="" />
+      <created>1634207141085</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1634207141085</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18008785" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6525157" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/drug_recommendation_system/Template/htmls/SProvider/Train_View_Drugs_DataSets_Details.html" />
+    <entry file="file://$PROJECT_DIR$/drug_recommendation_system/Template/htmls/SProvider/Test_Recommended_Ratio.html" />
+    <entry file="file://$PROJECT_DIR$/drug_recommendation_system/Template/htmls/SProvider/serviceproviderlogin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="184" lean-forward="false" selection-start-line="48" selection-start-column="184" selection-end-line="48" selection-end-column="184" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drug_recommendation_system/Template/htmls/SProvider/Download_Trained_DataSets.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drug_recommendation_system/Template/htmls/SProvider/dislikeschart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drug_recommendation_system/Template/htmls/SProvider/View_Drugs_Recommended_Details.html" />
+    <entry file="file://$PROJECT_DIR$/drug_recommendation_system/drug_recommendation_system/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="37" column="122" lean-forward="false" selection-start-line="37" selection-start-column="122" selection-end-line="37" selection-end-column="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drug_recommendation_system/Service_Provider/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="76" column="60" lean-forward="false" selection-start-line="76" selection-start-column="60" selection-end-line="76" selection-end-column="60" />
+          <folding>
+            <element signature="e#1#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drug_recommendation_system/Remote_User/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1666">
+          <caret line="105" column="19" lean-forward="false" selection-start-line="105" selection-start-column="19" selection-end-line="105" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drug_recommendation_system/Template/htmls/SProvider/design1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="43" lean-forward="false" selection-start-line="50" selection-start-column="43" selection-end-line="50" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drug_recommendation_system/Template/htmls/SProvider/Train_View_Drugs_DataSets_Details.html" />
+    <entry file="file://$PROJECT_DIR$/drug_recommendation_system/Template/htmls/SProvider/Test_Recommended_Ratio.html" />
+    <entry file="file://$PROJECT_DIR$/drug_recommendation_system/Template/htmls/SProvider/Download_Trained_DataSets.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drug_recommendation_system/Template/htmls/SProvider/serviceproviderlogin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="184" lean-forward="false" selection-start-line="48" selection-start-column="184" selection-end-line="48" selection-end-column="184" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drug_recommendation_system/Template/htmls/SProvider/dislikeschart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drug_recommendation_system/Template/htmls/SProvider/View_Drugs_Recommended_Details.html" />
+    <entry file="file://$PROJECT_DIR$/drug_recommendation_system/drug_recommendation_system/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="37" column="122" lean-forward="false" selection-start-line="37" selection-start-column="122" selection-end-line="37" selection-end-column="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drug_recommendation_system/Service_Provider/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="76" column="60" lean-forward="false" selection-start-line="76" selection-start-column="60" selection-end-line="76" selection-end-column="60" />
+          <folding>
+            <element signature="e#1#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drug_recommendation_system/Remote_User/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1870">
+          <caret line="118" column="53" lean-forward="false" selection-start-line="118" selection-start-column="53" selection-end-line="118" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drug_recommendation_system/Remote_User/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drug_recommendation_system/Remote_User/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drug_recommendation_system/Remote_User/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drug_recommendation_system/Remote_User/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drug_recommendation_system/Template/htmls/SProvider/Train_View_SMS_DataSets_Details.html" />
+    <entry file="file://$PROJECT_DIR$/drug_recommendation_system/Template/htmls/SProvider/View_Spam_traceability_Details.html" />
+    <entry file="file://$PROJECT_DIR$/drug_recommendation_system/Template/htmls/RUser/Predict_SpamType_DataSets.html" />
+    <entry file="file://$PROJECT_DIR$/drug_recommendation_system/Template/htmls/SProvider/View_Drugs_Recommended_Details.html" />
+    <entry file="file://$PROJECT_DIR$/drug_recommendation_system/Template/htmls/SProvider/Train_View_Drugs_DataSets_Details.html" />
+    <entry file="file://$PROJECT_DIR$/drug_recommendation_system/Template/htmls/SProvider/Test_Recommended_Ratio.html" />
+    <entry file="file://$PROJECT_DIR$/drug_recommendation_system/Template/htmls/SProvider/Download_Trained_DataSets.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drug_recommendation_system/Template/htmls/SProvider/dislikeschart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drug_recommendation_system/drug_recommendation_system/asgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drug_recommendation_system/drug_recommendation_system/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1047">
+          <caret line="72" column="43" lean-forward="false" selection-start-line="72" selection-start-column="43" selection-end-line="72" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drug_recommendation_system/drug_recommendation_system/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="42" lean-forward="false" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drug_recommendation_system/Template/htmls/SProvider/View_Prediction_Of_Tweet_Message_Type.html" />
+    <entry file="file://$PROJECT_DIR$/drug_recommendation_system/Template/htmls/SProvider/serviceproviderlogin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drug_recommendation_system/Template/htmls/RUser/Register1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="50" column="183" lean-forward="false" selection-start-line="50" selection-start-column="183" selection-end-line="50" selection-end-column="183" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drug_recommendation_system/Template/htmls/RUser/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="47" column="183" lean-forward="false" selection-start-line="47" selection-start-column="183" selection-end-line="47" selection-end-column="183" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drug_recommendation_system/Template/htmls/SProvider/design1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="56" column="43" lean-forward="true" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drug_recommendation_system/Template/htmls/RUser/design.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="57" column="7" lean-forward="true" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drug_recommendation_system/drug_recommendation_system/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="32" column="78" lean-forward="false" selection-start-line="32" selection-start-column="78" selection-end-line="32" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drug_recommendation_system/Template/htmls/RUser/Add_DataSet_Details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drug_recommendation_system/Template/htmls/SProvider/train_model.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="31" lean-forward="false" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drug_recommendation_system/Template/htmls/SProvider/View_Drug_Recommendation_Type_Ratio.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="31" lean-forward="false" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drug_recommendation_system/Template/htmls/SProvider/View_Remote_Users.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drug_recommendation_system/Template/htmls/RUser/Predict_Drug_Recommendation_Type.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="38" lean-forward="false" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drug_recommendation_system/Remote_User/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="24" column="44" lean-forward="false" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drug_recommendation_system/Template/htmls/SProvider/View_Prediction_Of_Drug_RecommendationType.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="59" column="129" lean-forward="false" selection-start-line="59" selection-start-column="129" selection-end-line="59" selection-end-column="129" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drug_recommendation_system/Remote_User/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="38" column="45" lean-forward="false" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drug_recommendation_system/Drugs_Recommendataion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drug_recommendation_system/Service_Provider/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="234" column="17" lean-forward="false" selection-start-line="234" selection-start-column="17" selection-end-line="234" selection-end-column="17" />
+          <folding>
+            <element signature="e#1#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

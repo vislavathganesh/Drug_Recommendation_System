@@ -1,0 +1,117 @@
+{% extends 'RUser/design.html' %}
+
+{% block userblock %}
+<link rel="icon" href="images/icon.png" type="image/x-icon" />
+
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+
+<style>
+    /* Import styles from the parent design.html file */
+    {% block page_styles %}
+        {{ block.super }}
+    {% endblock %}
+
+    /* Add or override additional styles for this specific page */
+    body {
+        background-color: #2C3E50;
+        color: #ffffff;
+        font-family: Arial, sans-serif;
+    }
+
+    .container-fluid {
+        padding: 50px;
+    }
+
+    .container {
+        background-color: rgba(255, 255, 255, 0.9);
+        border-radius: 10px;
+        padding: 50px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    #title {
+        font-family: 'Fredoka One', cursive;
+    }
+
+    .style1 {
+        color: #FF0000;
+        font-weight: bold;
+    }
+
+    .profile-item {
+        margin-bottom: 15px;
+    }
+
+    .profile-label {
+        color: #FF00FF;
+        font-weight: bold;
+    }
+
+    .profile-data {
+        color: #333; /* Dark gray color for the data */
+    }
+</style>
+
+<div class="container-fluid">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-5">
+                <form role="form" method="POST">
+                    {% csrf_token %}
+                    <fieldset>
+                        <p class="text-uppercase text-center style1">YOUR PROFILE DETAILS !!!</p>
+                        <hr>
+
+                        <div class="profile-item">
+                            <p><span class="profile-label">User Name:</span> <span class="profile-data">{{object.username}}</span></p>
+                        </div>
+
+                        <div class="profile-item">
+                            <p><span class="profile-label">Email:</span> <span class="profile-data">{{object.email}}</span></p>
+                        </div>
+
+                        <div class="profile-item">
+                            <p><span class="profile-label">Password:</span> <span class="profile-data">*********</span></p>
+                        </div>
+
+                        <div class="profile-item">
+                            <p><span class="profile-label">Mobile No:</span> <span class="profile-data">{{object.phoneno}}</span></p>
+                        </div>
+
+                        <div class="profile-item">
+                            <p><span class="profile-label">Country:</span> <span class="profile-data">{{object.country}}</span></p>
+                        </div>
+
+                        <div class="profile-item">
+                            <p><span class="profile-label">State:</span> <span class="profile-data">{{object.state}}</span></p>
+                        </div>
+
+                        <div class="profile-item">
+                            <p><span class="profile-label">City:</span> <span class="profile-data">{{object.city}}</span></p>
+                        </div>
+
+                        <!-- Display additional user details -->
+                        <div class="profile-item">
+                            <p><span class="profile-label">Date of Birth:</span> <span class="profile-data">{{object.date_of_birth}}</span></p>
+                        </div>
+
+                        <div class="profile-item">
+                            <p><span class="profile-label">Address:</span> <span class="profile-data">{{object.address}}</span></p>
+                        </div>
+
+                        <!-- Add more user details as needed -->
+
+                    </fieldset>
+                </form>
+            </div>
+
+            <div class="col-md-2">
+                <!-------null------>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
